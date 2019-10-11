@@ -12,7 +12,7 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
   components: { HelloWorld },
 })
 export default class Home extends Vue {
-  private msg: string = '你好 TS';
+  private msg: string = '你好 TS000';
   private created() {
     console.log(this.msg);
   }
